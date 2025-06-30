@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>添加用戶</title>
+</head>
+<body>
+    <h1>添加新用戶</h1>
+    <form method="POST" action="{{ url_for('add_user') }}">
+        <label for="username">用戶名:</label><br>
+        <input type="text" id="username" name="username" required><br><br>
+        <label for="email">郵箱:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+        <input type="submit" value="添加用戶">
+    </form>
+    <a href="{{ url_for('index') }}">返回主頁</a>
+</body>
+</html>

@@ -1,0 +1,16 @@
+# Python 編譯檔案
+__pycache__/
+*.py[cod]
+
+# 虛擬環境
+venv/
+env/
+
+# Flask 環境設定
+.env
+
+# VSCode 開發工具設定（如果你用）
+.vscode/
+
+# Mac 系統檔案
+.DS_Store
